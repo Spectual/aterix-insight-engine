@@ -95,3 +95,7 @@ This is currently a marketing/promotional website for Aterix. The "Trusted by Le
 ## License
 
 This project is private and proprietary to Aterix.
+
+---
+
+*Last updated: December 2024*
