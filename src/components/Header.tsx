@@ -29,37 +29,49 @@ const Header = () => {
           <div className="w-8 h-8 bg-brand-teal rounded-lg flex items-center justify-center">
             <span className="text-brand-white font-bold text-lg">A</span>
           </div>
-          <span className="text-xl font-heading font-bold text-brand-midnight">Aterix</span>
+          <span className={`text-xl font-heading font-bold transition-colors ${
+            isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+          }`}>Aterix</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-6">
           <button 
             onClick={() => scrollToSection('features')}
-            className="text-brand-midnight hover:text-brand-teal transition-colors"
+            className={`transition-colors hover:text-brand-teal ${
+              isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+            }`}
           >
             Features
           </button>
           <button 
             onClick={() => scrollToSection('workflow')}
-            className="text-brand-midnight hover:text-brand-teal transition-colors"
+            className={`transition-colors hover:text-brand-teal ${
+              isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+            }`}
           >
             How It Works
           </button>
           <button 
             onClick={() => scrollToSection('screenshots')}
-            className="text-brand-midnight hover:text-brand-teal transition-colors"
+            className={`transition-colors hover:text-brand-teal ${
+              isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+            }`}
           >
             Screenshots
           </button>
           <button 
             onClick={() => scrollToSection('security')}
-            className="text-brand-midnight hover:text-brand-teal transition-colors"
+            className={`transition-colors hover:text-brand-teal ${
+              isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+            }`}
           >
             Security
           </button>
           <button 
             onClick={() => scrollToSection('faq')}
-            className="text-brand-midnight hover:text-brand-teal transition-colors"
+            className={`transition-colors hover:text-brand-teal ${
+              isScrolled ? 'text-brand-midnight' : 'text-brand-white'
+            }`}
           >
             FAQ
           </button>

@@ -6,7 +6,7 @@ import WorkflowSection from '@/components/WorkflowSection';
 import ScreenshotCarousel from '@/components/ScreenshotCarousel';
 import DeepDiveAccordion from '@/components/DeepDiveAccordion';
 import SecuritySection from '@/components/SecuritySection';
-import TestimonialSection from '@/components/TestimonialSection';
+
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -22,7 +22,6 @@ const Index = () => {
       <ScreenshotCarousel />
       <DeepDiveAccordion />
       <SecuritySection />
-      <TestimonialSection />
       <FAQSection />
       <ContactSection />
       <Footer />

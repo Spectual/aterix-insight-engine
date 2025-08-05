@@ -8,12 +8,7 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-brand-teal rounded-full animate-float"></div>
-        <div className="absolute bottom-20 right-10 w-16 h-16 bg-brand-amber rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-1/2 left-20 w-12 h-12 bg-brand-teal rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
-      </div>
+
 
       <div className="container mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center relative z-10">
         <div className="text-center lg:text-left">

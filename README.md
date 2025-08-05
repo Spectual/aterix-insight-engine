@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# Aterix Insight Engine
 
-## Project info
+A modern marketing website for Aterix, an AI-powered investment research platform that automates deep research across markets, filings, news, and more.
 
-**URL**: https://lovable.dev/projects/c246d4b9-2316-4f17-89b0-eb229926d9a0
+## Project Overview
 
-## How can I edit this code?
+Aterix Insight Engine is a React-based marketing website showcasing how Aterix transforms market noise into actionable intelligence for investment professionals. The platform provides 24/7 coverage, multi-source data aggregation, and compliance-ready research workflows.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Modern UI/UX**: Built with React, TypeScript, and Tailwind CSS
+- **Responsive Design**: Optimized for all device sizes
+- **Interactive Components**: Carousels, accordions, and dynamic content
+- **Contact Integration**: Email-based contact forms
+- **Performance Optimized**: Fast loading with Vite build system
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c246d4b9-2316-4f17-89b0-eb229926d9a0) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui component library
+- **Routing**: React Router DOM
+- **State Management**: React Query for data fetching
+- **Icons**: Lucide React
+- **Forms**: React Hook Form with Zod validation
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (version 18 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd aterix-insight-engine
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # React components
+│   ├── ui/            # shadcn/ui components
+│   └── ...            # Custom components
+├── pages/             # Page components
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions
+└── assets/            # Static assets
+```
 
-This project is built with:
+## Key Components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **HeroSection**: Main landing section with value proposition
+- **FeatureGrid**: Product features and capabilities
+- **WorkflowSection**: How the platform works
+- **ScreenshotCarousel**: Product screenshots and demos
+- **SecuritySection**: Security and compliance features
+- **ContactSection**: Contact form and information
+- **FAQSection**: Frequently asked questions
 
-## How can I deploy this project?
+## Contact Information
 
-Simply open [Lovable](https://lovable.dev/projects/c246d4b9-2316-4f17-89b0-eb229926d9a0) and click on Share -> Publish.
+- **Email**: baoyifei@bu.edu
+- **Phone**: +1 8573403064
+- **Office**: Allston
 
-## Can I connect a custom domain to my Lovable project?
+## Development Notes
 
-Yes, you can!
+This is currently a marketing/promotional website for Aterix. The "Trusted by Leading Investment Firms" section has been commented out as this is still in the promotional phase.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is private and proprietary to Aterix.

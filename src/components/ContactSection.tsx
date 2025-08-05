@@ -140,7 +140,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-brand-white font-medium">Email</div>
-                  <div className="text-brand-white/80">sales@aterix.ai</div>
+                  <div className="text-brand-white/80">baoyifei@bu.edu</div>
                 </div>
               </div>
 
@@ -150,7 +150,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-brand-white font-medium">Phone</div>
-                  <div className="text-brand-white/80">+1 (555) 123-4567</div>
+                  <div className="text-brand-white/80">+1 8573403064</div>
                 </div>
               </div>
 
@@ -160,20 +160,12 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-brand-white font-medium">Office</div>
-                  <div className="text-brand-white/80">New York Financial District</div>
+                  <div className="text-brand-white/80">Allston</div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-brand-white/10 rounded-xl p-6 border border-brand-white/20">
-              <h4 className="text-brand-white font-heading font-semibold mb-3">What to Expect</h4>
-              <ul className="space-y-2 text-brand-white/80">
-                <li>• 30-minute personalized demo</li>
-                <li>• Discussion of your specific use cases</li>
-                <li>• Custom implementation timeline</li>
-                <li>• Pricing and ROI analysis</li>
-              </ul>
-            </div>
+
           </div>
         </div>
       </div>
