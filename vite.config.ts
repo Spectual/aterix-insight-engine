@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: '/aterix-insight-engine/',
+export default defineConfig(({ command }) => ({
+  base: command === 'serve' ? '/' : '/aterix-insight-engine/',
   server: {
     host: "::",
     port: 8080,
@@ -20,4 +20,4 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: false,
   },
-});
+}));
