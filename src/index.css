@@ -8,33 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Aterix Brand Colors */
+    --brand-midnight: 213 75% 15%; /* #0B1F3F */
+    --brand-teal: 175 75% 44%; /* #17C6B7 */
+    --brand-white: 210 20% 98%; /* #F9FAFC */
+    --brand-amber: 45 100% 70%; /* #FFC766 */
+    
+    /* Design System Colors */
+    --background: 210 20% 98%;
+    --foreground: 213 75% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 210 20% 98%;
+    --card-foreground: 213 75% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 210 20% 98%;
+    --popover-foreground: 213 75% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 213 75% 15%;
+    --primary-foreground: 210 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 175 75% 44%;
+    --secondary-foreground: 210 20% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 213 20% 96%;
+    --muted-foreground: 213 30% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 100% 70%;
+    --accent-foreground: 213 75% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 213 20% 90%;
+    --input: 213 20% 90%;
+    --ring: 175 75% 44%;
+    
+    /* Custom gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-midnight)), hsl(213 60% 25%));
+    --gradient-section: linear-gradient(180deg, hsl(var(--background)), hsl(213 30% 95%));
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-micro: all 0.2s ease-out;
 
     --radius: 0.5rem;
 
